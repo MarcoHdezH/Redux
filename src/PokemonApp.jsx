@@ -15,7 +15,6 @@ export const PokemonApp = () => {
     <>
         <h1>PokemonApp</h1>
         <hr/>
-        <span>Loading:{isLoading ? 'True':'False'}</span>
         <ul>
         {
             pokemons.map( ({name}) =>(
